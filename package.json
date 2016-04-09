@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "main": "app/js/main.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "deploy": "webpack --production"
   },
   "author": "Arnaud Valle",
   "license": "ISC",
@@ -26,6 +27,7 @@
     "babel-preset-react": "^6.5.0",
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
+    "html-loader": "^0.4.3",
     "node-sass": "^3.4.2",
     "react-tap-event-plugin": "^0.2.2",
     "sass-loader": "^3.1.2",
